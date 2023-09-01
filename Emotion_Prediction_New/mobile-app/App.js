@@ -158,7 +158,7 @@ const App = () => {
         source={{uri: 'background'}}
         style={{height: height, width: width}}
       />
-      <Text style={styles.title}>{'Potato Disease \nPrediction App'}</Text>
+      <Text style={styles.title}>{'Happy \nTails '}</Text>
       <TouchableOpacity onPress={clearOutput} style={styles.clearStyle}>
         <Image source={{uri: 'clean'}} style={styles.clearImage} />
       </TouchableOpacity>
