@@ -15,9 +15,6 @@ import { DropzoneArea } from 'material-ui-dropzone';
 import { common } from '@material-ui/core/colors';
 import Clear from '@material-ui/icons/Clear';
 
-
-
-
 const ColorButton = withStyles((theme) => ({
   root: {
     color: theme.palette.getContrastText(common.white),
@@ -143,7 +140,7 @@ const useStyles = makeStyles((theme) => ({
     color: '#be6a77 !important',
   }
 }));
-export const ImageUpload = () => {
+const ImageUpload = () => {
   const classes = useStyles();
   const [selectedFile, setSelectedFile] = useState();
   const [preview, setPreview] = useState();
@@ -312,3 +309,5 @@ export const ImageUpload = () => {
     </React.Fragment >
   );
 };
+
+export default ImageUpload;

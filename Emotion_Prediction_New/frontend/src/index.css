@@ -15,6 +15,11 @@ code {
 .MuiDropzoneArea-root {
 	background-color: transparent !important;
 }
-.MuiDropzoneArea-text, .MuiDropzoneArea-icon {
-  color: white !important;
+.MuiDropzoneArea-text {
+  color: #431906 !important;
+  margin-top: 50px !important;
+}
+.MuiDropzoneArea-icon {
+	color: #431906 !important;
+  margin-top: -15px;
 }
