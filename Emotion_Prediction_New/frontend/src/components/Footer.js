@@ -25,8 +25,8 @@ const Footer = () => {
           <span>Qualtiy</span>
           <span>Help</span>
           <span>Share</span>
-          <span>Carrers</span>
-          <span>Testimonials</span>
+          <span>Careers</span>
+          {/* <span>Testimonials</span> */}
           <span>Work</span>
         </div>
         <div className="footer-section-columns">

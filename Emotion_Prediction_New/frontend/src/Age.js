@@ -10,7 +10,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import { Paper, CardActionArea, CardMedia, Grid, TableContainer, Table, TableBody, TableHead, TableRow, TableCell, Button, CircularProgress } from "@material-ui/core";
 import logo from "./logo.png";
-import image from "./dogMeatBackground.jpg";
+import image from "./agePredictionBg.jpg";
 import { DropzoneArea } from 'material-ui-dropzone';
 import { common } from '@material-ui/core/colors';
 import Clear from '@material-ui/icons/Clear';
@@ -66,9 +66,9 @@ const useStyles = makeStyles((theme) => ({
     margin: "auto",
     maxWidth: 400,
     height: 500,
-    marginRight: "100px",
-    marginTop: "20px",
-    backgroundColor: 'white',
+    marginRight: "200px",
+    marginTop: "-50px",
+    backgroundColor: '#E4D4B6',
     boxShadow: '0px 9px 70px 0px rgb(0 0 0 / 30%) !important',
     borderRadius: '15px',
   },
@@ -125,7 +125,7 @@ const useStyles = makeStyles((theme) => ({
   buttonGrid: {
     maxWidth: "416px",
     width: "100%",
-    marginLeft: "720px",
+    marginLeft: "520px",
   },
   detail: {
     backgroundColor: 'white',
